@@ -12,15 +12,29 @@ a {
 }
 
 #background {
-  background-image: url(image1.jpg);
+  background-image: url(image1.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
   border-bottom: 25px solid black;
 }
 
+header {
+  background-image: url(image7.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   font-size: 10em;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  color: black;
+}
+
+h2 {
+  font-size: 5em;
   text-align: center;
   position: relative;
   margin: auto;
