@@ -23,6 +23,8 @@ header {
   background-image: url(image7.jpg); 
   background-repeat: no-repeat;
   background-size: cover;
+  /* opacity: 0.5;
+  z-index: 2; */
 }
 
 h1 {
@@ -38,7 +40,8 @@ h2 {
   text-align: center;
   position: relative;
   margin: auto;
-  color: black;
+  color: white;
+  -webkit-text-stroke: 2px black;
 }
 
 p {
@@ -98,11 +101,13 @@ a:hover {
 }
 
 h1 a:link {
-  color: black;
+  color: white;
+  -webkit-text-stroke: 4px black;
 }
 
 h1 a:visited {
-  color: black;
+  color: white;
+  -webkit-text-stroke: 4px black;
 }
 
 h1 a:hover {
